@@ -49,6 +49,7 @@ h1 {
 
 .some-div {
     display: initial;
+    /*перевели дисплей в строковый*/
 }
 
 .footer {
