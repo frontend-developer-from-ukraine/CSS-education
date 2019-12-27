@@ -1,3 +1,15 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.car {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.page-header {}
+
 h1 {
     color: blue;
     margin-bottom: 10px;
@@ -7,6 +19,7 @@ h1 {
 
 h1:hover {
     color: cyan;
+    transition: .5s;
 }
 
 #main-nav {
@@ -16,7 +29,7 @@ h1:hover {
 }
 
 #main-nav li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 #main-nav a {
