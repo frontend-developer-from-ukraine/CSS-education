@@ -28,10 +28,11 @@ h1:hover {
     text-decoration: none;
     font-size: 20px;
     transition: 2s;
+    border-radius: 6px;
 }
 
 #main-nav a:hover {
     color: crimson;
-    font-size: 30px;
-    transition: .5s;
+    font-size: 25px;
+    transition: .2s;
 }
